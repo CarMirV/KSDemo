@@ -1,19 +1,16 @@
-17:42:16.527 [main] INFO  com.example.demo.DemoApplication - Starting DemoApplication using Java 1.8.0_111 on DESKTOP-VJNI4VB with PID 13788 (C:\Users\Carlos Miranda\Documents\KaizenTI\demo\demo\target\classes started by Carlos Miranda in C:\Users\Carlos Miranda\Documents\KaizenTI\demo\demo)
-17:42:16.535 [main] INFO  com.example.demo.DemoApplication - No active profile set, falling back to default profiles: default
-17:42:16.996 [main] INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
-17:42:17.035 [main] INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 31 ms. Found 1 JPA repository interfaces.
-17:42:17.583 [main] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
-17:42:17.680 [main] INFO  org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1086 ms
-17:42:17.987 [main] INFO  org.hibernate.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
-17:42:18.029 [main] INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 5.4.30.Final
-17:42:18.139 [main] INFO  org.hibernate.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
-17:42:18.240 [main] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
-17:42:18.686 [main] INFO  org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
-17:42:18.693 [main] INFO  org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
-17:42:18.924 [main] WARN  org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
-17:42:19.004 [main] INFO  org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
-17:42:19.185 [main] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
-17:42:19.191 [main] INFO  com.example.demo.DemoApplication - Started DemoApplication in 2.912 seconds (JVM running for 3.578)
-17:42:21.606 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
-17:42:21.607 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 1 ms
-17:42:21.631 [http-nio-8080-exec-1] ERROR com.example.demo.controller.Controller - Valor invalido de busqueda: -1
+10:31:02.098 [main] INFO  com.example.demo.DemoApplication - Starting DemoApplication using Java 1.8.0_111 on DESKTOP-VJNI4VB with PID 18640 (C:\Users\Carlos Miranda\Documents\KaizenTI\demo\demo\target\classes started by Carlos Miranda in C:\Users\Carlos Miranda\Documents\KaizenTI\demo\demo)
+10:31:02.109 [main] INFO  com.example.demo.DemoApplication - No active profile set, falling back to default profiles: default
+10:31:02.613 [main] INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+10:31:02.656 [main] INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 35 ms. Found 1 JPA repository interfaces.
+10:31:03.220 [main] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+10:31:03.315 [main] INFO  org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1152 ms
+10:31:03.645 [main] INFO  org.hibernate.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+10:31:03.709 [main] INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 5.4.30.Final
+10:31:03.861 [main] INFO  org.hibernate.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+10:31:03.992 [main] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+10:31:04.498 [main] INFO  org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+10:31:04.505 [main] INFO  org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+10:31:04.716 [main] WARN  org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+10:31:04.788 [main] INFO  org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+10:31:04.942 [main] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+10:31:04.948 [main] INFO  com.example.demo.DemoApplication - Started DemoApplication in 3.117 seconds (JVM running for 3.853)

@@ -7,18 +7,26 @@ import lombok.extern.log4j.Log4j2;
 import org.apache.logging.log4j.Marker;
 import org.apache.logging.log4j.MarkerManager;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.beans.factory.annotation.Qualifier;
+import org.springframework.boot.ApplicationArguments;
+import org.springframework.boot.ApplicationRunner;
 import org.springframework.web.bind.annotation.*;
 
 import java.util.List;
 
 @Log4j2
 @RestController
-public class Controller {
+public class Controller implements ApplicationRunner {
 
     public static final Marker ERRORES = MarkerManager.getMarker("errores");
 
     @Autowired
-    ProductoServicio productoServicio;
+            @Qualifier("ProductoXbox")
+    ProductoServicio productoServicioXbox;
+
+    @Autowired
+    @Qualifier("Producto")
+        ProductoServicio productoServicio;
 
     @GetMapping("/productos")
     public List<Producto> productos(){
@@ -48,5 +56,13 @@ public class Controller {
 
         }
         productoServicio.agrega(producto.getNombre());
+    }
+
+    @Override
+    public void run(ApplicationArguments args) throws Exception {
+        System.out.println(productoServicio);
+        System.out.println(productoServicio.getNombre());
+        System.out.println(productoServicioXbox);
+        System.out.println(productoServicioXbox.getNombre());
     }
 }
